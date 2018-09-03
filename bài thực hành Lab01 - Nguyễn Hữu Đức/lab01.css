@@ -1,0 +1,34 @@
+body{
+	margin: 0;\
+}
+#flex-container{
+	display: flex;
+	justify-content: space-between;
+	height: 200px;
+}
+nav{
+	background-color: royalblue;
+	height: 75px;
+}
+header{
+	background-color: #ff66ff;
+	height: 400px;
+}
+section{
+	background-color: #ff9966;
+	margin: 75px 100px;
+}
+footer{
+	background-color: grey;
+	height: 100px;
+}
+p{
+	background-color: deeppink;
+	height: 200px;
+	margin-bottom: 75px;
+}
+div.col{
+	background-color: darkorange;
+	border: 2px black;
+	width: calc(50% - 10px);
+}
