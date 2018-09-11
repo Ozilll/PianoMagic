@@ -6,3 +6,37 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+.menu-login{
+  display: flex;
+  justify-content: center;
+}
+.span6 .bar-menu-login{
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+  margin-left: 18px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 10px;
+  background-color: white;
+}
+
+.span6 .bar-menu-login:hover{
+  cursor: pointer;
+  background-color: #9966ff;
+  color: white;
+}
+
+.form-login{
+  background-color: white;
+  margin: 130px 265px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.content-form{
+  padding: 150px 10px 10px 10px;
+  text-align: center;
+}

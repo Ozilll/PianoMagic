@@ -4,11 +4,34 @@
     <meta charset="utf-8">
     <title>Quản lý đồ án tốt nghiệp</title>
     <link rel="stylesheet" href="css/doan.css"/>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css"/>
   </head>
   <body class="login-img">
-    <div>
-      <form class="" action="index.html" method="post">
-      </form>
+    <div class="row-fluid">
+      <div class="span6"></div>
+      <div class="span6">
+        <div class="menu-login">
+          <a class="bar-menu-login" href="#">Trang chủ</a>
+          <a class="bar-menu-login" href="#">Đăng nhập</a>
+          <a class="bar-menu-login" href="#">Hỏi đáp</a>
+          <a class="bar-menu-login" href="#">Trợ giúp</a>
+        </div>
+      </div>
+      <div>
+        <form class="form-login" action="index.html" method="post">
+          <div class="content-form">
+            <div class="form-group">
+              <label for="">Tài khoản: <input type="text" class="form-control" placeholder="Tài khoản" required></label>
+            </div>
+            <div class="form-group">
+              <label for="">Mật khẩu: <input type="password" class="form-control" placeholder="Mật khẩu" required></label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox">Lưu mật khẩu</label>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
