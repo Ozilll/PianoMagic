@@ -25,18 +25,44 @@
 
 .span6 .bar-menu-login:hover{
   cursor: pointer;
-  background-color: #9966ff;
+  background-color: rgb(77, 148, 205);
   color: white;
 }
 
 .form-login{
   background-color: white;
-  margin: 130px 265px;
+  margin: 150px 300px;
   border-radius: 10px;
   box-shadow: 0px 0px 15px 0px;
 }
 
 .content-form{
-  padding: 150px 10px 10px 10px;
+  padding: 40px 10px 30px 10px;
   text-align: center;
+}
+
+.title-login{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, Tahoma, sans-serif;
+  margin-bottom: 15px;
+}
+
+.logo-login{
+  margin-bottom: 20px;
+}
+
+.button-signup{
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  text-decoration: none;
+}
+
+.button-signup:hover{
+  cursor: pointer;
+  background-color: rgb(77, 148, 205);
+  color: white;
+  text-decoration: none;
 }
