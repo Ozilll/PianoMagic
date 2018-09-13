@@ -21,6 +21,7 @@
         <form class="form-login" action="index.html" method="post">
           <div class="content-form">
             <img src="img/logo.png" alt="" class="logo-login">
+            <h3>QUẢN LÝ ĐỒ ÁN TỐT NGHIỆP</h3>
             <hr>
             <div class="title-login">ĐĂNG NHẬP</div>
             <div class="form-group">
@@ -33,6 +34,20 @@
           </div>
         </form>
       </div>
+      <?php
+          $servername = 'localhost';
+          $username = 'root';
+          $password = '';
+          $db = 'music';
+
+          // 1.Ket noi server
+          $conn = mysqli_connect($servername, $username, $password, $db);
+
+          // 2.Kiem tra trang thai ket noi
+          if(!$conn){
+            die("Connection failed: " . mysqli_connect_error());
+          }
+      ?>
     </div>
   </body>
 </html>
