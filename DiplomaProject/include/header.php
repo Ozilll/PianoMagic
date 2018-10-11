@@ -11,3 +11,9 @@
     <script src="js/script.js"></script>
   </head>
   <body>
+    <?php
+      // $sql = "SELECT * FROM sinhvien";
+      // $result = query($sql);
+      // fetch_array($result);
+      // echo row['fullname'];
+    ?>

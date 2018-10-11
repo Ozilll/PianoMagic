@@ -15,7 +15,7 @@
             <input type="password" class="form-control" id="inputPassword" placeholder="Mật khẩu">
           </div>
           <div class="forgot">
-            Chưa có tài khoản? <a href="reset.html">Đăng ký</a>
+            Chưa có tài khoản? <a href="index.signup.php">Đăng ký</a>
           </div>
           <button type="submit" class="btn btn-primary">Đăng nhập</button>
         </form>

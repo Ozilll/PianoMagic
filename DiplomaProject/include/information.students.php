@@ -1,5 +1,5 @@
 <div class="container">
-  <h2 style="text-align: center">THÔNG TIN CÁC GIẢNG VIÊN</h2>
+  <h2 style="text-align: center">DANH SÁCH SINH VIÊN</h2>
   <div class="row-fluid">
     <div class="row">
       <div class="span4">
@@ -12,7 +12,9 @@
           <p>information</p>
           <hr>
           <p>Họ tên:</p>
-          <p>Chuyên ngành:</p>
+          <p>Lớp:</p>
+          <p>Mã sinh viên:</p>
+          <p>Đề tài đang làm:</p>
           <p>Gửi thư:</p>
           <input type="text" name="" value="">
         </div>

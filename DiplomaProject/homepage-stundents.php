@@ -4,4 +4,6 @@
 <?php include("include/myproject.php") ?>
 <?php include("include/allproject.php") ?>
 <?php include("include/information.teachers.php") ?>
+<?php include("include/tool-finding-teacher.php") ?>
+<?php include("include/finding-job.php") ?>
 <?php include("include/footer.php") ?>
