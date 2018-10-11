@@ -11,7 +11,7 @@
       <div class="span6"></div>
       <div class="span6">
         <div class="menu-login">
-          <a class="bar-menu-login" href="#">Trang chủ</a>
+          <a class="bar-menu-login" href="home/home.php">Trang chủ</a>
           <a class="bar-menu-login" href="#">Đăng nhập</a>
           <a class="bar-menu-login" href="#">Hỏi đáp</a>
           <a class="bar-menu-login" href="#">Trợ giúp</a>
@@ -30,24 +30,13 @@
             <div class="form-group">
               <input type="password" class="form-control" placeholder="Mật khẩu" required>
             </div>
-            <a href="" class="button-signup">Đăng ký</a>
+            <div class="button-index">
+              <a href="home/homepage-teacher.php" class="button-signin">Đăng nhập</a>
+              <a href="signup/signup.php" class="button-signup">Đăng ký</a>
+            </div>
           </div>
         </form>
       </div>
-      <?php
-          $servername = 'localhost';
-          $username = 'root';
-          $password = '';
-          $db = 'music';
-
-          // 1.Ket noi server
-          $conn = mysqli_connect($servername, $username, $password, $db);
-
-          // 2.Kiem tra trang thai ket noi
-          if(!$conn){
-            die("Connection failed: " . mysqli_connect_error());
-          }
-      ?>
     </div>
   </body>
 </html>

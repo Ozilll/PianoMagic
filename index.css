@@ -1,0 +1,10 @@
+li{
+  display: inline-block;
+  text-align: center;
+}
+.abc{
+  width: 100px;
+  height: 100px;
+  background: rgb(244, 241, 13);
+  
+}

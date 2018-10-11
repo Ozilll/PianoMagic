@@ -7,6 +7,15 @@
   background-size: cover;
 }
 
+.signup-img{
+  margin: 0px;
+  background: url(../img/login-img.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .menu-login{
   display: flex;
   justify-content: center;
@@ -33,8 +42,16 @@
   background-color: white;
   margin: 114px 300px;
   border-radius: 10px;
-  box-shadow: 0px 0px 15px 0px;
+  box-shadow: 0px 0px 15px 0px rgb(69, 160, 180);
 }
+
+.form-signup{
+  background-color: white;
+  margin: 114px 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px rgb(69, 160, 180);
+}
+
 
 .content-form{
   padding: 40px 10px 30px 10px;
@@ -64,5 +81,28 @@
   cursor: pointer;
   background-color: rgb(77, 148, 205);
   color: white;
+  text-decoration: none;
+}
+
+.button-signin{
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  text-decoration: none;
+  margin-right: 45px;
+}
+
+.button-signin:hover{
+  cursor: pointer;
+  background-color: rgb(77, 148, 205);
+  color: white;
+  text-decoration: none;
+}
+
+.searching{
+  text-align: center;
+}
+
+.homepage-teacher{
   text-decoration: none;
 }
